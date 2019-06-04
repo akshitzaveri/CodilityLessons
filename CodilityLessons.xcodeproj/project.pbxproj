@@ -21,8 +21,12 @@
 		BF6E78C822A6B69F009ACE11 /* FrogJmp.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6E78C722A6B69F009ACE11 /* FrogJmp.png */; };
 		BF6E78CA22A6B6AC009ACE11 /* FrogJmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */; };
 		BF6E78CC22A6B6B5009ACE11 /* FrogJmpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */; };
+		BF6E78CE22A6C068009ACE11 /* PermMissingElem.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6E78CD22A6C068009ACE11 /* PermMissingElem.png */; };
+		BF6E78D022A6C072009ACE11 /* PermMissingElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E78CF22A6C072009ACE11 /* PermMissingElem.swift */; };
+		BF6E78D222A6C07E009ACE11 /* PermMissingElemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E78D122A6C07E009ACE11 /* PermMissingElemTests.swift */; };
 		BF7C73F522A1415F00AF870B /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C73F422A1415F00AF870B /* CyclicRotation.swift */; };
 		BF7C73F722A1416900AF870B /* CyclicRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */; };
+		BFB87F8022A6C4ED0007835B /* large_array.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB87F7F22A6C4ED0007835B /* large_array.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +58,12 @@
 		BF6E78C722A6B69F009ACE11 /* FrogJmp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrogJmp.png; sourceTree = "<group>"; };
 		BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJmp.swift; sourceTree = "<group>"; };
 		BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJmpTests.swift; sourceTree = "<group>"; };
+		BF6E78CD22A6C068009ACE11 /* PermMissingElem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PermMissingElem.png; sourceTree = "<group>"; };
+		BF6E78CF22A6C072009ACE11 /* PermMissingElem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermMissingElem.swift; sourceTree = "<group>"; };
+		BF6E78D122A6C07E009ACE11 /* PermMissingElemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermMissingElemTests.swift; sourceTree = "<group>"; };
 		BF7C73F422A1415F00AF870B /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
 		BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotationTests.swift; sourceTree = "<group>"; };
+		BFB87F7F22A6C4ED0007835B /* large_array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = large_array.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,8 @@
 				BF27757E22A121810037BD69 /* Main.storyboard */,
 				BF6E78C322A6B4A9009ACE11 /* OddOccurrencesInArray.png */,
 				BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */,
+				BF6E78CD22A6C068009ACE11 /* PermMissingElem.png */,
+				BF6E78CF22A6C072009ACE11 /* PermMissingElem.swift */,
 			);
 			path = CodilityLessons;
 			sourceTree = "<group>";
@@ -121,6 +131,8 @@
 				BF2775A022A137800037BD69 /* OddOccurrencesInArrayTests.swift */,
 				BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */,
 				BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */,
+				BF6E78D122A6C07E009ACE11 /* PermMissingElemTests.swift */,
+				BFB87F7F22A6C4ED0007835B /* large_array.json */,
 				BF27759122A121820037BD69 /* Info.plist */,
 			);
 			path = CodilityLessonsTests;
@@ -215,6 +227,7 @@
 				BF6E78C822A6B69F009ACE11 /* FrogJmp.png in Resources */,
 				BF27758222A121820037BD69 /* Assets.xcassets in Resources */,
 				BF27758022A121810037BD69 /* Main.storyboard in Resources */,
+				BF6E78CE22A6C068009ACE11 /* PermMissingElem.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB87F8022A6C4ED0007835B /* large_array.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +249,7 @@
 				BF27759F22A1222C0037BD69 /* BinaryGap.swift in Sources */,
 				BF6E78CA22A6B6AC009ACE11 /* FrogJmp.swift in Sources */,
 				BF27757B22A121810037BD69 /* AppDelegate.swift in Sources */,
+				BF6E78D022A6C072009ACE11 /* PermMissingElem.swift in Sources */,
 				BF2775A322A1378C0037BD69 /* OddOccurrencesInArray.swift in Sources */,
 				BF7C73F522A1415F00AF870B /* CyclicRotation.swift in Sources */,
 			);
@@ -247,6 +262,7 @@
 				BF2775A122A137800037BD69 /* OddOccurrencesInArrayTests.swift in Sources */,
 				BF6E78CC22A6B6B5009ACE11 /* FrogJmpTests.swift in Sources */,
 				BF27759D22A122100037BD69 /* BinaryGapTests.swift in Sources */,
+				BF6E78D222A6C07E009ACE11 /* PermMissingElemTests.swift in Sources */,
 				BF7C73F722A1416900AF870B /* CyclicRotationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
