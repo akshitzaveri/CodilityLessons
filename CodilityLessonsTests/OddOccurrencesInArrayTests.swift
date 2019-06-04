@@ -21,6 +21,11 @@ class OddOccurrencesInArrayTests: XCTestCase {
         sut = nil
     }
     
+    func test_EmptyArray() {
+        var array = [Int]()
+        XCTAssertEqual(sut.solution(&array), 0)
+    }
+    
     func test_7_Unpaired_9_3_9_3_9_7_9() {
         var array = [9,3,9,3,9,7,9]
         XCTAssertEqual(sut.solution(&array), 7)
@@ -41,12 +46,4 @@ class OddOccurrencesInArrayTests: XCTestCase {
         ]
         XCTAssertEqual(sut.solution(&array), 832)
     }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
 }

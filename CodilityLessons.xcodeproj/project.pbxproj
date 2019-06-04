@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BF27757B22A121810037BD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF27757A22A121810037BD69 /* AppDelegate.swift */; };
-		BF27757D22A121810037BD69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF27757C22A121810037BD69 /* ViewController.swift */; };
 		BF27758022A121810037BD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27757E22A121810037BD69 /* Main.storyboard */; };
 		BF27758222A121820037BD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF27758122A121820037BD69 /* Assets.xcassets */; };
 		BF27758522A121820037BD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF27758322A121820037BD69 /* LaunchScreen.storyboard */; };
@@ -16,6 +15,12 @@
 		BF27759F22A1222C0037BD69 /* BinaryGap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF27759E22A1222C0037BD69 /* BinaryGap.swift */; };
 		BF2775A122A137800037BD69 /* OddOccurrencesInArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2775A022A137800037BD69 /* OddOccurrencesInArrayTests.swift */; };
 		BF2775A322A1378C0037BD69 /* OddOccurrencesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */; };
+		BF6E78C422A6B4A9009ACE11 /* BinaryGap.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6E78C122A6B4A9009ACE11 /* BinaryGap.png */; };
+		BF6E78C522A6B4A9009ACE11 /* CyclicRotation.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6E78C222A6B4A9009ACE11 /* CyclicRotation.png */; };
+		BF6E78C622A6B4A9009ACE11 /* OddOccurrencesInArray.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6E78C322A6B4A9009ACE11 /* OddOccurrencesInArray.png */; };
+		BF6E78C822A6B69F009ACE11 /* FrogJmp.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6E78C722A6B69F009ACE11 /* FrogJmp.png */; };
+		BF6E78CA22A6B6AC009ACE11 /* FrogJmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */; };
+		BF6E78CC22A6B6B5009ACE11 /* FrogJmpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */; };
 		BF7C73F522A1415F00AF870B /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C73F422A1415F00AF870B /* CyclicRotation.swift */; };
 		BF7C73F722A1416900AF870B /* CyclicRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +38,6 @@
 /* Begin PBXFileReference section */
 		BF27757722A121810037BD69 /* CodilityLessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodilityLessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF27757A22A121810037BD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BF27757C22A121810037BD69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF27757F22A121810037BD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF27758122A121820037BD69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF27758422A121820037BD69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +48,12 @@
 		BF27759E22A1222C0037BD69 /* BinaryGap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryGap.swift; sourceTree = "<group>"; };
 		BF2775A022A137800037BD69 /* OddOccurrencesInArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOccurrencesInArrayTests.swift; sourceTree = "<group>"; };
 		BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddOccurrencesInArray.swift; sourceTree = "<group>"; };
+		BF6E78C122A6B4A9009ACE11 /* BinaryGap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BinaryGap.png; sourceTree = "<group>"; };
+		BF6E78C222A6B4A9009ACE11 /* CyclicRotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CyclicRotation.png; sourceTree = "<group>"; };
+		BF6E78C322A6B4A9009ACE11 /* OddOccurrencesInArray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OddOccurrencesInArray.png; sourceTree = "<group>"; };
+		BF6E78C722A6B69F009ACE11 /* FrogJmp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FrogJmp.png; sourceTree = "<group>"; };
+		BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJmp.swift; sourceTree = "<group>"; };
+		BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrogJmpTests.swift; sourceTree = "<group>"; };
 		BF7C73F422A1415F00AF870B /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
 		BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,14 +98,18 @@
 			isa = PBXGroup;
 			children = (
 				BF27757A22A121810037BD69 /* AppDelegate.swift */,
-				BF27757C22A121810037BD69 /* ViewController.swift */,
-				BF27759E22A1222C0037BD69 /* BinaryGap.swift */,
-				BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */,
-				BF7C73F422A1415F00AF870B /* CyclicRotation.swift */,
-				BF27757E22A121810037BD69 /* Main.storyboard */,
 				BF27758122A121820037BD69 /* Assets.xcassets */,
-				BF27758322A121820037BD69 /* LaunchScreen.storyboard */,
+				BF6E78C122A6B4A9009ACE11 /* BinaryGap.png */,
+				BF27759E22A1222C0037BD69 /* BinaryGap.swift */,
+				BF6E78C222A6B4A9009ACE11 /* CyclicRotation.png */,
+				BF7C73F422A1415F00AF870B /* CyclicRotation.swift */,
+				BF6E78C722A6B69F009ACE11 /* FrogJmp.png */,
+				BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */,
 				BF27758622A121820037BD69 /* Info.plist */,
+				BF27758322A121820037BD69 /* LaunchScreen.storyboard */,
+				BF27757E22A121810037BD69 /* Main.storyboard */,
+				BF6E78C322A6B4A9009ACE11 /* OddOccurrencesInArray.png */,
+				BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */,
 			);
 			path = CodilityLessons;
 			sourceTree = "<group>";
@@ -106,6 +120,7 @@
 				BF27759C22A122100037BD69 /* BinaryGapTests.swift */,
 				BF2775A022A137800037BD69 /* OddOccurrencesInArrayTests.swift */,
 				BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */,
+				BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */,
 				BF27759122A121820037BD69 /* Info.plist */,
 			);
 			path = CodilityLessonsTests;
@@ -194,6 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF27758522A121820037BD69 /* LaunchScreen.storyboard in Resources */,
+				BF6E78C522A6B4A9009ACE11 /* CyclicRotation.png in Resources */,
+				BF6E78C422A6B4A9009ACE11 /* BinaryGap.png in Resources */,
+				BF6E78C622A6B4A9009ACE11 /* OddOccurrencesInArray.png in Resources */,
+				BF6E78C822A6B69F009ACE11 /* FrogJmp.png in Resources */,
 				BF27758222A121820037BD69 /* Assets.xcassets in Resources */,
 				BF27758022A121810037BD69 /* Main.storyboard in Resources */,
 			);
@@ -213,8 +232,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF27757D22A121810037BD69 /* ViewController.swift in Sources */,
 				BF27759F22A1222C0037BD69 /* BinaryGap.swift in Sources */,
+				BF6E78CA22A6B6AC009ACE11 /* FrogJmp.swift in Sources */,
 				BF27757B22A121810037BD69 /* AppDelegate.swift in Sources */,
 				BF2775A322A1378C0037BD69 /* OddOccurrencesInArray.swift in Sources */,
 				BF7C73F522A1415F00AF870B /* CyclicRotation.swift in Sources */,
@@ -226,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2775A122A137800037BD69 /* OddOccurrencesInArrayTests.swift in Sources */,
+				BF6E78CC22A6B6B5009ACE11 /* FrogJmpTests.swift in Sources */,
 				BF27759D22A122100037BD69 /* BinaryGapTests.swift in Sources */,
 				BF7C73F722A1416900AF870B /* CyclicRotationTests.swift in Sources */,
 			);
