@@ -107,19 +107,12 @@
 			children = (
 				BF27757A22A121810037BD69 /* AppDelegate.swift */,
 				BF27758122A121820037BD69 /* Assets.xcassets */,
-				BF6E78C122A6B4A9009ACE11 /* BinaryGap.png */,
-				BF27759E22A1222C0037BD69 /* BinaryGap.swift */,
-				BF6E78C222A6B4A9009ACE11 /* CyclicRotation.png */,
-				BF7C73F422A1415F00AF870B /* CyclicRotation.swift */,
-				BF6E78C722A6B69F009ACE11 /* FrogJmp.png */,
-				BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */,
+				BFD7636324322F3E00FD9747 /* Lesson1-Iterations */,
+				BFD7636424322F5100FD9747 /* Lesson2-Arrays */,
+				BFD7636524322F6300FD9747 /* Lesson3-Time Complexity */,
 				BF27758622A121820037BD69 /* Info.plist */,
 				BF27758322A121820037BD69 /* LaunchScreen.storyboard */,
 				BF27757E22A121810037BD69 /* Main.storyboard */,
-				BF6E78C322A6B4A9009ACE11 /* OddOccurrencesInArray.png */,
-				BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */,
-				BF6E78CD22A6C068009ACE11 /* PermMissingElem.png */,
-				BF6E78CF22A6C072009ACE11 /* PermMissingElem.swift */,
 			);
 			path = CodilityLessons;
 			sourceTree = "<group>";
@@ -127,15 +120,70 @@
 		BF27758E22A121820037BD69 /* CodilityLessonsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BF27759C22A122100037BD69 /* BinaryGapTests.swift */,
-				BF2775A022A137800037BD69 /* OddOccurrencesInArrayTests.swift */,
-				BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */,
-				BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */,
-				BF6E78D122A6C07E009ACE11 /* PermMissingElemTests.swift */,
-				BFB87F7F22A6C4ED0007835B /* large_array.json */,
+				BFD7636624322F7200FD9747 /* Lesson1-Iterations */,
+				BFD7636724322F7C00FD9747 /* Lesson2-Arrays */,
+				BFD7636824322F8200FD9747 /* Lesson3-Time Complexity */,
 				BF27759122A121820037BD69 /* Info.plist */,
 			);
 			path = CodilityLessonsTests;
+			sourceTree = "<group>";
+		};
+		BFD7636324322F3E00FD9747 /* Lesson1-Iterations */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E78C122A6B4A9009ACE11 /* BinaryGap.png */,
+				BF27759E22A1222C0037BD69 /* BinaryGap.swift */,
+			);
+			path = "Lesson1-Iterations";
+			sourceTree = "<group>";
+		};
+		BFD7636424322F5100FD9747 /* Lesson2-Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E78C222A6B4A9009ACE11 /* CyclicRotation.png */,
+				BF7C73F422A1415F00AF870B /* CyclicRotation.swift */,
+				BF6E78C322A6B4A9009ACE11 /* OddOccurrencesInArray.png */,
+				BF2775A222A1378C0037BD69 /* OddOccurrencesInArray.swift */,
+			);
+			path = "Lesson2-Arrays";
+			sourceTree = "<group>";
+		};
+		BFD7636524322F6300FD9747 /* Lesson3-Time Complexity */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E78C722A6B69F009ACE11 /* FrogJmp.png */,
+				BF6E78C922A6B6AC009ACE11 /* FrogJmp.swift */,
+				BF6E78CD22A6C068009ACE11 /* PermMissingElem.png */,
+				BF6E78CF22A6C072009ACE11 /* PermMissingElem.swift */,
+			);
+			path = "Lesson3-Time Complexity";
+			sourceTree = "<group>";
+		};
+		BFD7636624322F7200FD9747 /* Lesson1-Iterations */ = {
+			isa = PBXGroup;
+			children = (
+				BF27759C22A122100037BD69 /* BinaryGapTests.swift */,
+			);
+			path = "Lesson1-Iterations";
+			sourceTree = "<group>";
+		};
+		BFD7636724322F7C00FD9747 /* Lesson2-Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				BF2775A022A137800037BD69 /* OddOccurrencesInArrayTests.swift */,
+				BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */,
+			);
+			path = "Lesson2-Arrays";
+			sourceTree = "<group>";
+		};
+		BFD7636824322F8200FD9747 /* Lesson3-Time Complexity */ = {
+			isa = PBXGroup;
+			children = (
+				BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */,
+				BFB87F7F22A6C4ED0007835B /* large_array.json */,
+				BF6E78D122A6C07E009ACE11 /* PermMissingElemTests.swift */,
+			);
+			path = "Lesson3-Time Complexity";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
