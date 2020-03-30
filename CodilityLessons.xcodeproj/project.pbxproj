@@ -27,9 +27,13 @@
 		BF7C1AB62432307600E8F940 /* TapeEquilibrium.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C1AB52432307600E8F940 /* TapeEquilibrium.swift */; };
 		BF7C1AB82432307F00E8F940 /* TapeEquilibriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C1AB72432307F00E8F940 /* TapeEquilibriumTests.swift */; };
 		BF7C1ABA2432308D00E8F940 /* TapeEquilibrium.png in Resources */ = {isa = PBXBuildFile; fileRef = BF7C1AB92432308D00E8F940 /* TapeEquilibrium.png */; };
+		BF7C1ABC2432498B00E8F940 /* large_array_TapeEquilibrium.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7C1ABB2432498B00E8F940 /* large_array_TapeEquilibrium.json */; };
+		BF7C1ABE243249BD00E8F940 /* large_array_PermMissing.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7C1ABD243249BD00E8F940 /* large_array_PermMissing.json */; };
+		BF7C1AC02432538300E8F940 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C1ABF2432538300E8F940 /* XCTestCase.swift */; };
+		BF7C1AC3243254EE00E8F940 /* large_array_TapeEquilibrium_1000Numbers.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7C1AC1243254EE00E8F940 /* large_array_TapeEquilibrium_1000Numbers.json */; };
+		BF7C1AC4243254EE00E8F940 /* large_array_TapeEquilibrium_100Numbers.json in Resources */ = {isa = PBXBuildFile; fileRef = BF7C1AC2243254EE00E8F940 /* large_array_TapeEquilibrium_100Numbers.json */; };
 		BF7C73F522A1415F00AF870B /* CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C73F422A1415F00AF870B /* CyclicRotation.swift */; };
 		BF7C73F722A1416900AF870B /* CyclicRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */; };
-		BFB87F8022A6C4ED0007835B /* large_array.json in Resources */ = {isa = PBXBuildFile; fileRef = BFB87F7F22A6C4ED0007835B /* large_array.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +71,13 @@
 		BF7C1AB52432307600E8F940 /* TapeEquilibrium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeEquilibrium.swift; sourceTree = "<group>"; };
 		BF7C1AB72432307F00E8F940 /* TapeEquilibriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapeEquilibriumTests.swift; sourceTree = "<group>"; };
 		BF7C1AB92432308D00E8F940 /* TapeEquilibrium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TapeEquilibrium.png; sourceTree = "<group>"; };
+		BF7C1ABB2432498B00E8F940 /* large_array_TapeEquilibrium.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = large_array_TapeEquilibrium.json; sourceTree = "<group>"; };
+		BF7C1ABD243249BD00E8F940 /* large_array_PermMissing.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = large_array_PermMissing.json; sourceTree = "<group>"; };
+		BF7C1ABF2432538300E8F940 /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestCase.swift; sourceTree = "<group>"; };
+		BF7C1AC1243254EE00E8F940 /* large_array_TapeEquilibrium_1000Numbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = large_array_TapeEquilibrium_1000Numbers.json; sourceTree = "<group>"; };
+		BF7C1AC2243254EE00E8F940 /* large_array_TapeEquilibrium_100Numbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = large_array_TapeEquilibrium_100Numbers.json; sourceTree = "<group>"; };
 		BF7C73F422A1415F00AF870B /* CyclicRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotation.swift; sourceTree = "<group>"; };
 		BF7C73F622A1416900AF870B /* CyclicRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclicRotationTests.swift; sourceTree = "<group>"; };
-		BFB87F7F22A6C4ED0007835B /* large_array.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = large_array.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,7 @@
 				BFD7636724322F7C00FD9747 /* Lesson2-Arrays */,
 				BFD7636824322F8200FD9747 /* Lesson3-Time Complexity */,
 				BF27759122A121820037BD69 /* Info.plist */,
+				BF7C1ABF2432538300E8F940 /* XCTestCase.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -188,9 +197,12 @@
 			isa = PBXGroup;
 			children = (
 				BF6E78CB22A6B6B5009ACE11 /* FrogJmpTests.swift */,
-				BFB87F7F22A6C4ED0007835B /* large_array.json */,
 				BF6E78D122A6C07E009ACE11 /* PermMissingElemTests.swift */,
+				BF7C1ABD243249BD00E8F940 /* large_array_PermMissing.json */,
 				BF7C1AB72432307F00E8F940 /* TapeEquilibriumTests.swift */,
+				BF7C1ABB2432498B00E8F940 /* large_array_TapeEquilibrium.json */,
+				BF7C1AC2243254EE00E8F940 /* large_array_TapeEquilibrium_100Numbers.json */,
+				BF7C1AC1243254EE00E8F940 /* large_array_TapeEquilibrium_1000Numbers.json */,
 			);
 			path = "Lesson3-Time Complexity";
 			sourceTree = "<group>";
@@ -293,7 +305,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB87F8022A6C4ED0007835B /* large_array.json in Resources */,
+				BF7C1ABE243249BD00E8F940 /* large_array_PermMissing.json in Resources */,
+				BF7C1AC4243254EE00E8F940 /* large_array_TapeEquilibrium_100Numbers.json in Resources */,
+				BF7C1AC3243254EE00E8F940 /* large_array_TapeEquilibrium_1000Numbers.json in Resources */,
+				BF7C1ABC2432498B00E8F940 /* large_array_TapeEquilibrium.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +336,7 @@
 				BF2775A122A137800037BD69 /* OddOccurrencesInArrayTests.swift in Sources */,
 				BF6E78CC22A6B6B5009ACE11 /* FrogJmpTests.swift in Sources */,
 				BF7C1AB82432307F00E8F940 /* TapeEquilibriumTests.swift in Sources */,
+				BF7C1AC02432538300E8F940 /* XCTestCase.swift in Sources */,
 				BF27759D22A122100037BD69 /* BinaryGapTests.swift in Sources */,
 				BF6E78D222A6C07E009ACE11 /* PermMissingElemTests.swift in Sources */,
 				BF7C73F722A1416900AF870B /* CyclicRotationTests.swift in Sources */,

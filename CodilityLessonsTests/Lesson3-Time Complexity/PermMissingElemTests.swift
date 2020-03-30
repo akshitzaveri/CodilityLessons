@@ -46,7 +46,7 @@ class PermMissingElemTests: XCTestCase {
     }
     
     func test_Large_Array_Missing99478() {
-        guard let path = Bundle(for: type(of: self)).path(forResource: "large_array", ofType: "json") else { return }
+        guard let path = Bundle(for: type(of: self)).path(forResource: "large_array_PermMissing", ofType: "json") else { return }
         let url = URL(fileURLWithPath: path)
         let data = try! Data(contentsOf: url)
         var array = try! JSONSerialization.jsonObject(with: data, options: []) as! [Int]
